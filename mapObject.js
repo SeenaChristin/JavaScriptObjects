@@ -1,7 +1,7 @@
 function mapObject(obj,cb){
-    let result = [];
+    let result = {};
     for(let x in obj){
-        result.push(cb(obj[x]));
+        result[x]=(cb(obj[x]));
     }
     return result;
 }

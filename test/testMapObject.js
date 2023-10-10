@@ -3,7 +3,7 @@ const mapObject = require('../mapObject');
 
 let valuesArr = mapObject(testObject,(val)=>{
     if(typeof(val)=='number'){
-        return val+2;
+        return val+10;
     }
     else{
         return val;
